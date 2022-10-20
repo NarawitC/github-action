@@ -15,7 +15,7 @@ jobs:
           node-version: 17
 
       - name: Install Node.js dependencies
-        run: yarn install
+        run: npm i
 
       - name: Run test
         run: yarn test
